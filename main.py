@@ -1,7 +1,5 @@
 def return_greeting(who):
-    if (not who):
-        return 'hello'
-    return 'hello ' + who
+    return ' '.join(['hello', who])
 
 
 print(return_greeting('world'))
